@@ -1,10 +1,10 @@
-import ParentComponent from './components/ParentComponent'
 import './App.css'
+import HookTimer from './components/HookTimerWithUseRef'
 
 function App() {
   return (
     <div className="app">
-      <ParentComponent />
+      <HookTimer />
     </div>
   )
 }
